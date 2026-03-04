@@ -36,9 +36,9 @@
 
   /* CUSTOM CURSOR */
   .cursor {
-    width: 12px; height: 12px;
+    width: 8px; height: 8px;
     background: var(--accent);
-    border-radius: 50%;
+    border-radius: 30%;
     position: fixed;
     top: 0; left: 0;
     pointer-events: none;
@@ -47,7 +47,7 @@
     mix-blend-mode: difference;
   }
   .cursor-ring {
-    width: 40px; height: 40px;
+    width: 30px; height: 30px;
     border: 1px solid var(--accent);
     border-radius: 50%;
     position: fixed;
@@ -196,9 +196,6 @@
     max-width: 520px;
     line-height: 1.8;
     margin-bottom: 48px;
-
-    font-style : italic ;
-    font-weight : 300;
     opacity: 0;
     animation: fadeUp 0.8s 0.8s forwards;
   }
@@ -683,7 +680,7 @@
     section { padding: 80px 24px; }
     #hero { padding: 0 24px; }
     .hero-stat-strip { display: none; }
-    .hero-scroll-hint { left: 24px; }
+    .hero-scroll-hint { left: 2px; }
     .about-grid { grid-template-columns: 1fr; }
     .about-portrait { max-height: 300px; }
     .skills-grid { grid-template-columns: 1fr; }
@@ -721,13 +718,11 @@
     <div class="hero-eyebrow">
       <span>Available for work</span>
     </div>
-   <h1 class="hero-name">KAVIRAJ<br><span>S</span></h1>
-
-<div class="hero-title">MECHANICAL ENGINEERING UNDERGRADUATE</div>
-
-<p class="hero-desc">
-  “Engineering is not just about calculations — it’s about turning ideas into things that work.”
-</p>
+    <h1 class="hero-name">KAVI RAJ<br><span>S</span></h1>
+    <div class="hero-title">Mechanical Engineering · Undergraduate</div>
+    <p class="hero-desc">
+      I approach problems by understanding the system first — then designing solutions that actually last.
+    </p>
     <div class="hero-cta">
       <a href="#projects" class="btn-primary">View My Work</a>
       <a href="#contact" class="btn-outline">Let's Talk</a>
@@ -740,7 +735,7 @@
       <div class="stat-label">Years Learning.</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">0+</div>
+      <div class="stat-number">current 0</div>
       <div class="stat-label">Projects</div>
     </div>
    
@@ -763,41 +758,30 @@
   <div class="about-grid">
     <div class="about-portrait reveal">
       <div class="portrait-placeholder">
-        <span class="portrait-initials">YN</span>
+        <span class="portrait-initials">KR</span>
       </div>
       <div class="portrait-accent-corner"></div>
       <div class="portrait-accent-corner2"></div>
     </div>
 
     <div class="about-text reveal">
-      <h3>Hello, I'm <span style="color:var(--accent)">KAVIRAJ</span></h3>
+      <h3>Hello, I'm <span style="color:var(--accent)">Kavi Raj</span></h3>
       <p>
-  I’m a Mechanical Engineering undergraduate who enjoys turning ideas into practical, well-designed solutions.
-  My interest lies in understanding how things work, improving them through design, and building models that
-  make sense both on screen and in the real world.
-</p>
-
-<p>
-  I work with CAD tools like NX, Fusion 360 and SolidWorks, focusing on clean geometry, proper constraints, and
-  manufacturable designs. I believe good engineering is not just about theory, but about applying fundamentals
-  to create solutions that are simple, efficient, and reliable.
-</p>
-
-<p>
-  I’m currently focused on strengthening my core mechanical concepts, improving my design skills, and
-  becoming industry-ready by working on meaningful projects and continuously learning new tools and techniques.
-</p>
+        I’m a Mechanical Engineering undergraduate who enjoys working at the intersection of design and technology. I have a passion for creating elegant solutions to complex problems, whether it’s optimizing a mechanical system or building a sleek web app.
+      </p>
+      <p>
+      I like approaching problems methodically, questioning assumptions, and refining solutions through iteration. I’m always eager to learn new skills and take on challenges that push me outside my comfort zone.
+      <p>
+        Whether it’s a mechanical concept or a digital interface, I’m interested in building things that are clear, functional, and well thought out.
+      </p>
 
       <div class="about-tags">
-        <span class="tag">Mechanical Engineering</span>
-        <span class="tag">CAD Modeling</span>
-        <span class="tag">Nx CAD</span>
-        <span class="tag">Fusion 360</span>
-        <span class="tag">SolidWorks</span>
-        <span class="tag">Engineering Design</span>
+        <span class="tag">Problem Solver</span>
+        <span class="tag">Automobile Enthusiast</span>
+        <span class="tag">CAD Designer</span>
+        <span class="tag">Detail-Oriented</span>
         <span class="tag">Fast Learner</span>
-        <span class="tag">Manufacturing Fundamentals</span>
-        <span class="tag">JAVA-Basics</span>
+        <span class="tag">Team Player</span>
       </div>
     </div>
   </div>
@@ -813,44 +797,47 @@
 
   <div class="skills-grid">
     <div class="skill-category reveal" data-delay="0">
-      <span class="skill-cat-icon">⚡</span>
-      <div class="skill-cat-name">CAD Modeling</div>
+      <span class="skill-cat-icon">🛠</span>
+      <div class="skill-cat-name">CAD</div>
       <ul class="skill-list">
         <li class="skill-item">
           <span class="skill-name">Nx CAD</span>
-          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:75%"></div></div>
-        </li>
-        <li class="skill-item">
-          <span class="skill-name">Fusion 360</span>
           <div class="skill-bar-wrap"><div class="skill-bar" style="--level:70%"></div></div>
         </li>
         <li class="skill-item">
-          <span class="skill-name">SolidWorks</span>
-          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:50%"></div></div>
+          <span class="skill-name">Fusion 360</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:80%"></div></div>
         </li>
-       
+        <li class="skill-item">
+          <span class="skill-name">SolidWorks</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:60%"></div></div>
+        </li>
+        <li class="skill-item">
+          <span class="skill-name">Creo</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:40%"></div></div>
+        </li>
       </ul>
     </div>
 
     <div class="skill-category reveal" data-delay="100">
-      <span class="skill-cat-icon">🛠</span>
-      <div class="skill-cat-name">Backend</div>
+      <span class="skill-cat-icon">⚡</span>
+      <div class="skill-cat-name">Software</div>
       <ul class="skill-list">
         <li class="skill-item">
-          <span class="skill-name">Node.js</span>
-          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:88%"></div></div>
+          <span class="skill-name">Java</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:60%"></div></div>
         </li>
         <li class="skill-item">
           <span class="skill-name">Python</span>
-          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:80%"></div></div>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:60%"></div></div>
         </li>
         <li class="skill-item">
-          <span class="skill-name">PostgreSQL</span>
-          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:75%"></div></div>
+          <span class="skill-name">C</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:70%"></div></div>
         </li>
         <li class="skill-item">
-          <span class="skill-name">REST / GraphQL</span>
-          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:83%"></div></div>
+          <span class="skill-name">HTML</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:20%"></div></div>
         </li>
       </ul>
     </div>
@@ -863,20 +850,7 @@
           <span class="skill-name">Git / GitHub</span>
           <div class="skill-bar-wrap"><div class="skill-bar" style="--level:95%"></div></div>
         </li>
-        <li class="skill-item">
-          <span class="skill-name">Docker</span>
-          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:72%"></div></div>
-        </li>
-        <li class="skill-item">
-          <span class="skill-name">AWS / Vercel</span>
-          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:78%"></div></div>
-        </li>
-        <li class="skill-item">
-          <span class="skill-name">CI / CD</span>
-          <div class="skill-bar-wrap"><div class="skill-bar" style="--level:68%"></div></div>
-        </li>
-      </ul>
-    </div>
+       
   </div>
 </section>
 
@@ -890,57 +864,15 @@
 
   <div class="projects-list">
     <div class="project-row reveal">
-      <span class="project-num">001</span>
-      <div class="project-info">
-        <h3>Project Alpha</h3>
-        <p>A full-stack SaaS platform for team collaboration and project management</p>
-      </div>
-      <div class="project-tags">
-        <span class="project-tag">React</span>
-        <span class="project-tag">Node.js</span>
-        <span class="project-tag">PostgreSQL</span>
-      </div>
-      <span class="project-arrow">↗</span>
-    </div>
-
-    <div class="project-row reveal">
-      <span class="project-num">002</span>
-      <div class="project-info">
-        <h3>E-Commerce Hub</h3>
-        <p>Scalable online marketplace with real-time inventory and payment integration</p>
-      </div>
-      <div class="project-tags">
-        <span class="project-tag">Next.js</span>
-        <span class="project-tag">Stripe</span>
-        <span class="project-tag">Redis</span>
-      </div>
-      <span class="project-arrow">↗</span>
-    </div>
-
-    <div class="project-row reveal">
       <span class="project-num">003</span>
       <div class="project-info">
         <h3>AI Dashboard</h3>
-        <p>Analytics and monitoring dashboard for machine learning model performance</p>
+        <p>Analytics and monitoring dashboard for Mechanical Engineer.</p>
       </div>
       <div class="project-tags">
         <span class="project-tag">Python</span>
         <span class="project-tag">FastAPI</span>
         <span class="project-tag">D3.js</span>
-      </div>
-      <span class="project-arrow">↗</span>
-    </div>
-
-    <div class="project-row reveal">
-      <span class="project-num">004</span>
-      <div class="project-info">
-        <h3>Mobile Fintech App</h3>
-        <p>Cross-platform finance tracker with budget automation and smart insights</p>
-      </div>
-      <div class="project-tags">
-        <span class="project-tag">React Native</span>
-        <span class="project-tag">GraphQL</span>
-        <span class="project-tag">AWS</span>
       </div>
       <span class="project-arrow">↗</span>
     </div>
@@ -969,9 +901,9 @@
           <span class="contact-link-icon">⌥</span>
           github.com/kabito-beep 
         </a>
-        <a href="https://linkedin.com/in/yourname" target="_blank" class="contact-link">
+        <a href="https://www.linkedin.com/in/kavi-raj-42001b343/" target="_blank" class="contact-link">
           <span class="contact-link-icon">in</span>
-          linkedin.com/in/Kavi raj
+          linkedin.com/in/kavi-raj-42001b343
         </a>
         
       </div>
@@ -997,7 +929,7 @@
 
 <!-- FOOTER -->
 <footer>
-  <span class="footer-copy">© 2026 Your Name — All rights reserved</span>
+  <span class="footer-copy">© 2026 Kavi Raj — All rights reserved</span>
   <a href="#hero" class="footer-back-top">↑ Back to top</a>
 </footer>
 
